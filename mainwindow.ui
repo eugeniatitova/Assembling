@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>540</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Assembling</string>
+  </property>
+  <widget class="QWidget" name="NewWindow">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>Cantarell</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <layout class="QHBoxLayout" name="characteristics">
+          <item>
+           <widget class="QComboBox" name="partsCmbBox">
+            <property name="font">
+             <font>
+              <family>Cantarell</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="editable">
+             <bool>false</bool>
+            </property>
+            <property name="currentText">
+             <string>CPU</string>
+            </property>
+            <property name="duplicatesEnabled">
+             <bool>false</bool>
+            </property>
+            <property name="frame">
+             <bool>true</bool>
+            </property>
+            <item>
+             <property name="text">
+              <string>CPU</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Motherboard</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>RAM</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Videocard</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Power supply</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Storage device</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Peripheral</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Case</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Cooler</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="sortCmbBox">
+            <property name="font">
+             <font>
+              <family>Cantarell</family>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="editable">
+             <bool>false</bool>
+            </property>
+            <property name="currentText">
+             <string>Price</string>
+            </property>
+            <item>
+             <property name="text">
+              <string>Price</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Power</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Manufacturer</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="catalogTable">
+          <property name="editTriggers">
+           <set>QAbstractItemView::DoubleClicked</set>
+          </property>
+          <property name="showDropIndicator" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="dragDropOverwriteMode">
+           <bool>false</bool>
+          </property>
+          <property name="selectionMode">
+           <enum>QAbstractItemView::SingleSelection</enum>
+          </property>
+          <property name="selectionBehavior">
+           <enum>QAbstractItemView::SelectRows</enum>
+          </property>
+          <property name="verticalScrollMode">
+           <enum>QAbstractItemView::ScrollPerPixel</enum>
+          </property>
+          <attribute name="horizontalHeaderHighlightSections">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderHighlightSections">
+           <bool>false</bool>
+          </attribute>
+          <column>
+           <property name="text">
+            <string>Manufacturer</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Model</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Description</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Price</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QTableWidget" name="assembleTable">
+          <property name="editTriggers">
+           <set>QAbstractItemView::DoubleClicked</set>
+          </property>
+          <property name="showDropIndicator" stdset="0">
+           <bool>false</bool>
+          </property>
+          <property name="dragDropOverwriteMode">
+           <bool>false</bool>
+          </property>
+          <property name="selectionMode">
+           <enum>QAbstractItemView::SingleSelection</enum>
+          </property>
+          <property name="selectionBehavior">
+           <enum>QAbstractItemView::SelectRows</enum>
+          </property>
+          <attribute name="horizontalHeaderHighlightSections">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+          <attribute name="verticalHeaderHighlightSections">
+           <bool>true</bool>
+          </attribute>
+          <row>
+           <property name="text">
+            <string>CPU</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Motherboard</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>RAM</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Videocard</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Power supply</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Storage device</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Peripheral</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Case</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Cooler</string>
+           </property>
+          </row>
+          <row>
+           <property name="text">
+            <string>Total price</string>
+           </property>
+          </row>
+          <column>
+           <property name="text">
+            <string>Manufacturer</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Model</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Count</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>Price</string>
+           </property>
+          </column>
+          <item row="0" column="0">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="0" column="1">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="0" column="2">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="0" column="3">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="1" column="0">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="1" column="1">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="1" column="2">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="1" column="3">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="2" column="0">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="2" column="1">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="2" column="2">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="2" column="3">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="3" column="0">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="3" column="1">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="3" column="2">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="3" column="3">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="4" column="0">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="4" column="1">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="4" column="2">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="4" column="3">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="5" column="0">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="5" column="1">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="5" column="2">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="5" column="3">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="6" column="0">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="6" column="1">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="6" column="2">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="6" column="3">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="7" column="0">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="7" column="1">
+           <property name="flags">
+            <set>ItemIsUserCheckable|ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="7" column="2">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="7" column="3">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="8" column="0">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="8" column="1">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="8" column="2">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="8" column="3">
+           <property name="flags">
+            <set>ItemIsEnabled</set>
+           </property>
+          </item>
+          <item row="9" column="0">
+           <property name="flags">
+            <set>NoItemFlags</set>
+           </property>
+          </item>
+          <item row="9" column="1">
+           <property name="flags">
+            <set>NoItemFlags</set>
+           </property>
+          </item>
+          <item row="9" column="2">
+           <property name="flags">
+            <set>NoItemFlags</set>
+           </property>
+          </item>
+          <item row="9" column="3">
+           <property name="flags">
+            <set>NoItemFlags</set>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QPushButton" name="clearButton">
+            <property name="font">
+             <font>
+              <family>Cantarell</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>Clear</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="reportButton">
+            <property name="text">
+             <string>Get parts report</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="saveButton">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="font">
+             <font>
+              <family>Cantarell</family>
+             </font>
+            </property>
+            <property name="text">
+             <string>Save assembly</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>960</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="administratorMenu">
+    <property name="title">
+     <string>Administrator</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="authorizationAction"/>
+    <addaction name="editAction"/>
+   </widget>
+   <widget class="QMenu" name="configurationsMenu">
+    <property name="title">
+     <string>Configurations</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="savedConfigurationsAction"/>
+    <addaction name="generateConfigurationAction"/>
+   </widget>
+   <addaction name="administratorMenu"/>
+   <addaction name="configurationsMenu"/>
+  </widget>
+  <action name="editAction">
+   <property name="text">
+    <string>Edit components</string>
+   </property>
+  </action>
+  <action name="authorizationAction">
+   <property name="text">
+    <string>Authorization</string>
+   </property>
+  </action>
+  <action name="savedConfigurationsAction">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Saved configurations</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+  <action name="actionGenerate">
+   <property name="text">
+    <string>Generate</string>
+   </property>
+  </action>
+  <action name="generateConfigurationAction">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Generate configuration</string>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

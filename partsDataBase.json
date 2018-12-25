@@ -1,0 +1,537 @@
+{
+    "assemblies": [
+        {
+            "body": {
+                "baseInfo": {
+                    "description": "",
+                    "manufacturer": "",
+                    "model": "",
+                    "perfomanceLevel": "",
+                    "price": 0
+                },
+                "formFactors": ""
+            },
+            "components": [
+            ],
+            "cooler": {
+                "baseInfo": {
+                    "description": "",
+                    "manufacturer": "",
+                    "model": "",
+                    "perfomanceLevel": "",
+                    "price": 0
+                },
+                "maxTdp": 0,
+                "sockets": ""
+            },
+            "cpu": {
+                "baseInfo": {
+                    "description": "Для энтузиастов",
+                    "manufacturer": "Intel",
+                    "model": "i7 8700k",
+                    "perfomanceLevel": "High-end",
+                    "price": 37000
+                },
+                "cpuFamily": "Coffee Lake",
+                "mhzFrequency": 3700,
+                "model": "",
+                "numOfCores": 6,
+                "socket": "LGA1151",
+                "tdp": 95
+            },
+            "dataStorages": [
+            ],
+            "descriprion": "Уберпк",
+            "gpus": [
+                {
+                    "baseInfo": {
+                        "description": "",
+                        "manufacturer": "Asus",
+                        "model": "GTX 1080",
+                        "perfomanceLevel": "High-end",
+                        "price": 36000
+                    },
+                    "coreClock": 1,
+                    "memoryBusWidth": 256,
+                    "memoryClock": 1,
+                    "memorySize": 8,
+                    "supplyPlugType": "8-pin",
+                    "tdp": 180
+                }
+            ],
+            "motherboard": {
+                "baseInfo": {
+                    "description": "Aorus",
+                    "manufacturer": "Asus",
+                    "model": "Z370",
+                    "perfomanceLevel": "High-end",
+                    "price": 8000
+                },
+                "cpuSupplyPlug": "4-pin",
+                "formFactor": "ATX",
+                "mbSupplyPlug": "24-pin",
+                "numOfCpuSupplyPlug": 1,
+                "numOfPciSlots": 2,
+                "numOfPcieX16Slots": 1,
+                "numOfPcieX1Slots": 0,
+                "numOfPcieX4Slots": 0,
+                "numOfPcieX8Slots": 1,
+                "numOfRamSlots": 4,
+                "numOfSata2Slots": 2,
+                "numOfSata3Slots": 2,
+                "numOfUSB2Slots": 4,
+                "numOfUSB3Slots": 2,
+                "ramType": "DDR4",
+                "socket": "LGA1151"
+            },
+            "perfomanceLevel": "",
+            "peripherals": [
+            ],
+            "price": 76000,
+            "psu": {
+                "baseInfo": {
+                    "description": "Premium",
+                    "manufacturer": "Seasonic",
+                    "model": "BH-600",
+                    "perfomanceLevel": "High-end",
+                    "price": 7000
+                },
+                "cpuPlugType": "4-pin",
+                "formFactor": "ATX",
+                "mbPlugType": "24-pin",
+                "numOf6PinPciePlug": 2,
+                "numOf6p2PinPciePlug": 2,
+                "numOf8PinPciePlug": 2,
+                "numOfCpuPlug": 1,
+                "numOfMolexPlug": 0,
+                "numOfSataPlug": 4,
+                "power": 600
+            },
+            "rams": [
+                {
+                    "baseInfo": {
+                        "description": "",
+                        "manufacturer": "Kingston",
+                        "model": "Hyper X",
+                        "perfomanceLevel": "High-end",
+                        "price": 12000
+                    },
+                    "memorySize": 16,
+                    "numOfModules": 2,
+                    "ramType": "DDR4"
+                }
+            ]
+        },
+        {
+            "body": {
+                "baseInfo": {
+                    "description": "",
+                    "manufacturer": "",
+                    "model": "",
+                    "perfomanceLevel": "",
+                    "price": 0
+                },
+                "formFactors": ""
+            },
+            "components": [
+            ],
+            "cooler": {
+                "baseInfo": {
+                    "description": "",
+                    "manufacturer": "",
+                    "model": "",
+                    "perfomanceLevel": "",
+                    "price": 0
+                },
+                "maxTdp": 0,
+                "sockets": ""
+            },
+            "cpu": {
+                "baseInfo": {
+                    "description": "Для энтузиастов",
+                    "manufacturer": "Intel",
+                    "model": "i7 8700k",
+                    "perfomanceLevel": "High-end",
+                    "price": 37000
+                },
+                "cpuFamily": "Coffee Lake",
+                "mhzFrequency": 3700,
+                "model": "",
+                "numOfCores": 6,
+                "socket": "LGA1151",
+                "tdp": 95
+            },
+            "dataStorages": [
+            ],
+            "descriprion": "UberPC",
+            "gpus": [
+                {
+                    "baseInfo": {
+                        "description": "",
+                        "manufacturer": "Asus",
+                        "model": "GTX 1080",
+                        "perfomanceLevel": "High-end",
+                        "price": 36000
+                    },
+                    "coreClock": 1,
+                    "memoryBusWidth": 256,
+                    "memoryClock": 1,
+                    "memorySize": 8,
+                    "supplyPlugType": "8-pin",
+                    "tdp": 180
+                }
+            ],
+            "motherboard": {
+                "baseInfo": {
+                    "description": "Aorus",
+                    "manufacturer": "Asus",
+                    "model": "Z370",
+                    "perfomanceLevel": "High-end",
+                    "price": 8000
+                },
+                "cpuSupplyPlug": "4-pin",
+                "formFactor": "ATX",
+                "mbSupplyPlug": "24-pin",
+                "numOfCpuSupplyPlug": 1,
+                "numOfPciSlots": 2,
+                "numOfPcieX16Slots": 1,
+                "numOfPcieX1Slots": 0,
+                "numOfPcieX4Slots": 0,
+                "numOfPcieX8Slots": 1,
+                "numOfRamSlots": 4,
+                "numOfSata2Slots": 2,
+                "numOfSata3Slots": 2,
+                "numOfUSB2Slots": 4,
+                "numOfUSB3Slots": 2,
+                "ramType": "DDR4",
+                "socket": "LGA1151"
+            },
+            "perfomanceLevel": "",
+            "peripherals": [
+            ],
+            "price": 76000,
+            "psu": {
+                "baseInfo": {
+                    "description": "Premium",
+                    "manufacturer": "Seasonic",
+                    "model": "BH-600",
+                    "perfomanceLevel": "High-end",
+                    "price": 7000
+                },
+                "cpuPlugType": "4-pin",
+                "formFactor": "ATX",
+                "mbPlugType": "24-pin",
+                "numOf6PinPciePlug": 2,
+                "numOf6p2PinPciePlug": 2,
+                "numOf8PinPciePlug": 2,
+                "numOfCpuPlug": 1,
+                "numOfMolexPlug": 0,
+                "numOfSataPlug": 4,
+                "power": 600
+            },
+            "rams": [
+                {
+                    "baseInfo": {
+                        "description": "",
+                        "manufacturer": "Kingston",
+                        "model": "Hyper X",
+                        "perfomanceLevel": "High-end",
+                        "price": 12000
+                    },
+                    "memorySize": 16,
+                    "numOfModules": 2,
+                    "ramType": "DDR4"
+                }
+            ]
+        }
+    ],
+    "components": {
+        "case": [
+            {
+                "baseInfo": {
+                    "description": "Pro",
+                    "manufacturer": "ThermalTake",
+                    "model": "H270UI",
+                    "perfomanceLevel": "High-end",
+                    "price": 5000
+                },
+                "formFactors": "ATX"
+            },
+            {
+                "baseInfo": {
+                    "description": "Econom",
+                    "manufacturer": "DeepCool",
+                    "model": "Eco3002",
+                    "perfomanceLevel": "Ultra-Low",
+                    "price": 1200
+                },
+                "formFactors": "ATX"
+            }
+        ],
+        "component": [
+        ],
+        "cooler": [
+            {
+                "baseInfo": {
+                    "description": "Pro Edition",
+                    "manufacturer": "ThermalTake",
+                    "model": "DeathRazer",
+                    "perfomanceLevel": "High-end",
+                    "price": 2000
+                },
+                "maxTdp": 250,
+                "sockets": "LGA1151"
+            },
+            {
+                "baseInfo": {
+                    "description": "Econom",
+                    "manufacturer": "DeepCool",
+                    "model": "Gammax 300",
+                    "perfomanceLevel": "Ultra-Low",
+                    "price": 400
+                },
+                "maxTdp": 200,
+                "sockets": "LGA1151"
+            }
+        ],
+        "cpu": [
+            {
+                "baseInfo": {
+                    "description": "Для энтузиастов",
+                    "manufacturer": "Intel",
+                    "model": "i7 8700k",
+                    "perfomanceLevel": "High-end",
+                    "price": 37000
+                },
+                "cpuFamily": "Coffee Lake",
+                "mhzFrequency": 3700,
+                "model": "",
+                "numOfCores": 6,
+                "socket": "LGA1151",
+                "tdp": 95
+            },
+            {
+                "baseInfo": {
+                    "description": "Для любителей",
+                    "manufacturer": "Intel",
+                    "model": "i5 7600k",
+                    "perfomanceLevel": "Mid",
+                    "price": 17000
+                },
+                "cpuFamily": "Kaby Lake",
+                "mhzFrequency": 3800,
+                "model": "",
+                "numOfCores": 4,
+                "socket": "LGA1151",
+                "tdp": 97
+            }
+        ],
+        "dataStorage": [
+            {
+                "baseInfo": {
+                    "description": "Very Fast",
+                    "manufacturer": "Samsung",
+                    "model": "QH400",
+                    "perfomanceLevel": "High-end",
+                    "price": 9200
+                },
+                "memorySize": 400,
+                "powerConsumption": 50,
+                "storeType": "SDD",
+                "supplyPlugType": "SATA"
+            },
+            {
+                "baseInfo": {
+                    "description": "Very Fast",
+                    "manufacturer": "Samsung",
+                    "model": "QH240",
+                    "perfomanceLevel": "High",
+                    "price": 6500
+                },
+                "memorySize": 240,
+                "powerConsumption": 50,
+                "storeType": "SDD",
+                "supplyPlugType": "SATA"
+            },
+            {
+                "baseInfo": {
+                    "description": "Fast",
+                    "manufacturer": "Kingston",
+                    "model": "HyperX 240",
+                    "perfomanceLevel": "High",
+                    "price": 6000
+                },
+                "memorySize": 240,
+                "powerConsumption": 50,
+                "storeType": "SDD",
+                "supplyPlugType": "SATA"
+            }
+        ],
+        "gpu": [
+            {
+                "baseInfo": {
+                    "description": "",
+                    "manufacturer": "Asus",
+                    "model": "GTX 1080",
+                    "perfomanceLevel": "High-end",
+                    "price": 36000
+                },
+                "coreClock": 1,
+                "memoryBusWidth": 256,
+                "memoryClock": 1,
+                "memorySize": 8,
+                "supplyPlugType": "8-pin",
+                "tdp": 180
+            },
+            {
+                "baseInfo": {
+                    "description": "",
+                    "manufacturer": "Palit",
+                    "model": "GTX 1070 Ti",
+                    "perfomanceLevel": "High-end",
+                    "price": 30000
+                },
+                "coreClock": 1797,
+                "memoryBusWidth": 256,
+                "memoryClock": 1,
+                "memorySize": 8,
+                "supplyPlugType": "8-pin",
+                "tdp": 170
+            },
+            {
+                "baseInfo": {
+                    "description": "",
+                    "manufacturer": "Asus",
+                    "model": "GTX 1070",
+                    "perfomanceLevel": "High",
+                    "price": 28000
+                },
+                "coreClock": 1,
+                "memoryBusWidth": 256,
+                "memoryClock": 1,
+                "memorySize": 8,
+                "supplyPlugType": "8-pin",
+                "tdp": 170
+            }
+        ],
+        "motherboard": [
+            {
+                "baseInfo": {
+                    "description": "Aorus",
+                    "manufacturer": "Asus",
+                    "model": "Z370",
+                    "perfomanceLevel": "High-end",
+                    "price": 8000
+                },
+                "cpuSupplyPlug": "4-pin",
+                "formFactor": "ATX",
+                "mbSupplyPlug": "24-pin",
+                "numOfCpuSupplyPlug": 1,
+                "numOfPciSlots": 2,
+                "numOfPcieX16Slots": 1,
+                "numOfPcieX1Slots": 0,
+                "numOfPcieX4Slots": 0,
+                "numOfPcieX8Slots": 1,
+                "numOfRamSlots": 4,
+                "numOfSata2Slots": 2,
+                "numOfSata3Slots": 2,
+                "numOfUSB2Slots": 4,
+                "numOfUSB3Slots": 2,
+                "ramType": "DDR4",
+                "socket": "LGA1151"
+            },
+            {
+                "baseInfo": {
+                    "description": "Gaming",
+                    "manufacturer": "Asus",
+                    "model": "Z270",
+                    "perfomanceLevel": "High-end",
+                    "price": 6000
+                },
+                "cpuSupplyPlug": "4-pin",
+                "formFactor": "ATX",
+                "mbSupplyPlug": "24-pin",
+                "numOfCpuSupplyPlug": 1,
+                "numOfPciSlots": 2,
+                "numOfPcieX16Slots": 1,
+                "numOfPcieX1Slots": 0,
+                "numOfPcieX4Slots": 0,
+                "numOfPcieX8Slots": 1,
+                "numOfRamSlots": 4,
+                "numOfSata2Slots": 2,
+                "numOfSata3Slots": 2,
+                "numOfUSB2Slots": 4,
+                "numOfUSB3Slots": 2,
+                "ramType": "DDR4",
+                "socket": "LGA1151"
+            }
+        ],
+        "peripheral": [
+            {
+                "baseInfo": {
+                    "description": "Мышь",
+                    "manufacturer": "Razer",
+                    "model": "Lissabon",
+                    "perfomanceLevel": "High-end",
+                    "price": 3000
+                },
+                "powerConsumption": 10,
+                "supplyPlugType": "SATA"
+            }
+        ],
+        "psu": [
+            {
+                "baseInfo": {
+                    "description": "Premium",
+                    "manufacturer": "Seasonic",
+                    "model": "BH-600",
+                    "perfomanceLevel": "High-end",
+                    "price": 7000
+                },
+                "cpuPlugType": "4-pin",
+                "formFactor": "ATX",
+                "mbPlugType": "24-pin",
+                "numOf6PinPciePlug": 2,
+                "numOf6p2PinPciePlug": 2,
+                "numOf8PinPciePlug": 2,
+                "numOfCpuPlug": 1,
+                "numOfMolexPlug": 0,
+                "numOfSataPlug": 4,
+                "power": 600
+            },
+            {
+                "baseInfo": {
+                    "description": "Econom",
+                    "manufacturer": "DeepCool",
+                    "model": "ANB-500",
+                    "perfomanceLevel": "Mid",
+                    "price": 4000
+                },
+                "cpuPlugType": "4-pin",
+                "formFactor": "ATX",
+                "mbPlugType": "24-pin",
+                "numOf6PinPciePlug": 2,
+                "numOf6p2PinPciePlug": 2,
+                "numOf8PinPciePlug": 2,
+                "numOfCpuPlug": 1,
+                "numOfMolexPlug": 0,
+                "numOfSataPlug": 4,
+                "power": 500
+            }
+        ],
+        "ram": [
+            {
+                "baseInfo": {
+                    "description": "Pro",
+                    "manufacturer": "Kingston",
+                    "model": "Hyper X",
+                    "perfomanceLevel": "High-end",
+                    "price": 12000
+                },
+                "memorySize": 16,
+                "numOfModules": 2,
+                "ramType": "DDR4"
+            }
+        ]
+    }
+}

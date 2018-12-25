@@ -1,0 +1,45 @@
+{
+    "authHash": {
+        "admin": "admin"
+    },
+    "cpuSupply": [
+        "4-pin"
+    ],
+    "formFactors": [
+        "mATX",
+        "ATX"
+    ],
+    "gpuSupply": [
+        "6-pin",
+        "8-pin"
+    ],
+    "mbSupply": [
+        "24-pin"
+    ],
+    "periphSupply": [
+        "Molex",
+        "SATA"
+    ],
+    "powerLevels": [
+        "Ultra-Low",
+        "Low",
+        "Mid",
+        "High",
+        "High-end"
+    ],
+    "ramTypes": [
+        "DDR2",
+        "DDR3",
+        "DDR4"
+    ],
+    "sockets": [
+        "AM3",
+        "AM4",
+        "LGA1151"
+    ],
+    "storeTypes": [
+        "HDD",
+        "SHDD",
+        "SDD"
+    ]
+}
